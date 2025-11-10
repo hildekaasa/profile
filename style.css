@@ -1,10 +1,29 @@
+body {
+  background-color: #f7f3f3;
+}
+
+p {
+  width: 550px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px;
+}
+#main {
+  width: 700px;
+  padding: 20px;
+  border-radius: 5px;
+  border: solid;
+  border-color: #333333;
+  margin-bottom: 20px;
+}
+
 div {
     background-color: #f2e9e9;
     font-family: Arial, sans-serif;
-    width: 550px;
+    width: 700px;
     color: #333333;
-    margin: 1px auto;
-    padding: 15px;
+    margin: 10px auto;
+    padding: 20px;
     border-radius: 5px;
     border: solid;
     border-color: #333333;
@@ -31,12 +50,14 @@ div {
 li {
   list-style: none;
   padding: 10px;
-  color: blue
+  color: white;
 }
 
 a {
   text-decoration: none;
   color: white;
+  background-color: rgb(12, 10, 114);
+  opacity: 0,1;
   border: solid;
   margin: 5px;
   padding: 5px;
@@ -55,12 +76,13 @@ img {
 #lewagon {
   color: #8a3434;
   margin: 30px 0;
-  width: 550px;
+  width: auto;
   text-align: center;
 }
 
 .pulse:visited {
   color: purple;
+  background-color: thistle;
 }
 
 h1 {
@@ -85,6 +107,8 @@ a:hover {
 .pulse {
   animation: pulse 1.5s infinite ease-in-out;
   color: purple;
+  background-color: thistle;
+  border-color: purple;
 }
 
 .pulse {
@@ -108,7 +132,7 @@ a:hover {
 }
 
 a:visited{
-  color: rgb(252, 252, 230);
+  color: white;
 }
 
 @media (max-width: 960px) {
